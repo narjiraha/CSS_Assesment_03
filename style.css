@@ -1,0 +1,215 @@
+/* *
+{
+    margin: 0%;
+    padding: 0%;
+} */
+
+.body {
+  background-color: gray;
+}
+.inner_container {
+  width: 450px;
+  height: 190px;
+  background-color: aliceblue;
+  margin-left: 600px;
+  border: 8px solid red;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px 2px rgba(197, 27, 146, 0.75);
+}
+
+.content_inside_container {
+  text-align: center;
+  color: brown;
+}
+
+/* Second Part */
+.parent_container {
+  border: 10px solid green;
+  height: 900px;
+}
+
+/* Styling for child_1 container(left) */
+.child1 {
+  width: 300px;
+  height: 250px;
+  margin-top: 1px;
+  margin-left: 5px;
+  background-color: aliceblue;
+  border: 8px solid red;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px 2px rgba(197, 27, 146, 0.75);
+}
+
+/* Styling for content of child 1 */
+.child1_content {
+  text-align: center;
+  font-style: inherit;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+  color: rgb(140, 33, 33);
+  margin-top: 30px;
+}
+
+.child2 {
+  border: 8px solid red;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px 2px rgba(197, 27, 146, 0.75);
+  margin-top: 6px;
+  margin-bottom: 5px;
+  width: 300px;
+  height: 250px;
+  margin-left: 1300px;
+  margin-top: -270px;
+}
+
+/* image of child2 */
+.image {
+  width: 250px;
+  height: 250px;
+  margin-left: 10px;
+}
+
+/*left child 3 */
+.child3 {
+  border: 8px solid red;
+  border-radius: 15px;
+  width: 300px;
+  height: 250px;
+  margin-top: -500px;
+  margin-left: 15px;
+  box-shadow: 4px 4px 10px 2px rgba(197, 27, 146, 0.75);
+}
+
+.child3_content {
+  text-align: center;
+  font-style: inherit;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+  color: rgb(140, 33, 33);
+  margin-top: 30px;
+  line-height: 0.8em; /* reduce line-height to reduce space between lines */
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.child4 {
+  border: 8px solid red;
+  border-radius: 15px;
+  margin-top: 6px;
+  margin-bottom: 5px;
+  width: 300px;
+  height: 250px;
+  margin-left: 1300px;
+  margin-top: -270px;
+  box-shadow: 4px 4px 10px 2px rgba(197, 27, 146, 0.75);
+}
+
+.child4_content {
+  text-align: center;
+  font-style: inherit;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+  color: rgb(140, 33, 33);
+  margin-top: 30px;
+}
+
+.submit {
+  margin-bottom: -20;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: red;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.child5 {
+  border: 10px solid red;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px 2px rgba(197, 27, 146, 0.75);
+  width: 500px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: greenyellow;
+  margin-left: 100px;
+  top: 90%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.offer {
+  color: rgb(118, 56, 56);
+  margin-left: 10px;
+}
+
+.monday {
+  margin-left: 50px;
+  color: rgb(118, 56, 56);
+  margin-top: -10px;
+}
+
+.discount {
+  color: rgb(118, 56, 56);
+  margin-left: 300px;
+  margin-top: -83px;
+}
+
+.tenPercent {
+  margin-left: 50px;
+  margin-top: -10px;
+}
+
+/* Welcome to my store */
+.container {
+  /* border: 10px solid red; */
+  height: 1000px;
+  width: 80px;
+  margin-top: 240px;
+}
+
+.child_container {
+  background-color: green;
+  margin-top: 30px;
+  margin-left: 400px;
+  border: 5px solid purple;
+  height: 800px;
+  width: 900px;
+}
+
+.fruits {
+  background-color: rgb(234, 234, 182);
+  height: 300px;
+  width: 433px;
+  margin-top: 100px;
+  margin-left: 4px;
+  border: 5px solid gray;
+}
+
+.fuits_content {
+  margin-top: 40px;
+}
+
+.veg {
+  background-color: rgb(234, 234, 182);
+  height: 300px;
+  width: 433px;
+  margin-left: 455px;
+  margin-right: 10px;
+  margin-top: -310px;
+  border: 5px solid gray;
+}
+
+.other {
+  background-color: rgb(234, 234, 182);
+  height: 300px;
+  width: 880px;
+  margin-left: 410px;
+  margin-right: 15px;
+  margin-top: -310px;
+  border: 5px solid gray;
+}
+.other_content {
+  text-align: center;
+}
